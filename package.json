@@ -1,0 +1,49 @@
+{
+  "name": "strapi-provider-upload-aws-s3-cdn-acl-enabled",
+  "version": "1.0.0",
+  "description": "This Strapi upload provider adapts the strapi-provider-upload-aws-s3, bundled with Strapi, to support writes to non-public S3 buckets plus optional download from a CDN endpoint",
+  "main": "./lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadab-hashmi/strapi-provider-upload-aws-s3-cdn-acl-enabled.git"
+  },
+  "keywords": [
+    "strapi",
+    "aws",
+    "cloudfront",
+    "cdn",
+    "upload"
+  ],
+  "author": "Shadab Hashmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadab-hashmi/strapi-provider-upload-aws-s3-cdn-acl-enabled/issues"
+  },
+  "homepage": "https://github.com/shadab-hashmi/strapi-provider-upload-aws-s3-cdn-acl-enabled#readme",
+  "dependencies": {
+    "aws-sdk": "2.874.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
