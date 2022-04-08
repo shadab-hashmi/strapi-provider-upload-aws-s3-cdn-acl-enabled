@@ -11,7 +11,7 @@ This Strapi upload provider adapts the strapi-provider-upload-aws-s3, bundled wi
 
 Inspired by this discussion: https://github.com/strapi/strapi/issues/5868#issuecomment-705200530
 
-This project is essentially the same as https://www.npmjs.com/package/strapi-provider-upload-aws-s3-plus-cdn, but it has public ACL enabled for cdn as well.
+This project is essentially the same as https://www.npmjs.com/package/strapi-provider-upload-aws-s3-cdn-acl-enabled, but it has public ACL enabled for cdn as well.
 ## Configuration
 
 Your configuration is passed down to the provider. (e.g: `new AWS.S3(config)`). You can see the complete list of options [here](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property)
