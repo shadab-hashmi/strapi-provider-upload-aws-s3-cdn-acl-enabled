@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-cdn-acl-enabled",
-  "version": "1.0.1",
+  "version": "4.1.0",
   "description": "This Strapi upload provider adapts the strapi-provider-upload-aws-s3, bundled with Strapi, to support writes to non-public S3 buckets plus optional download from a CDN endpoint",
   "main": "./lib",
   "directories": {
@@ -33,7 +33,7 @@
     "isProvider": true
   },
   "engines": {
-    "node": ">=10.16.0 <=17.x.x",
+    "node": ">=14.16.0 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "publishConfig": {
